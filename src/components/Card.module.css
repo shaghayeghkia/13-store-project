@@ -45,6 +45,11 @@
     cursor: pointer;
 }
 
+.actions div{
+    display: flex;
+    align-items: center;
+}
+
 .actions div span {
     width: 20px;
     text-align: center;

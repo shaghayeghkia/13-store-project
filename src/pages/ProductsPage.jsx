@@ -1,6 +1,9 @@
 import { useSearchParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+import { ImSearch } from "react-icons/im";
+import { FaListUl } from "react-icons/fa";
+
 import Card from "../components/Card";
 import Loader from "../components/Loader";
 import { useProducts } from "../context/ProductContext";

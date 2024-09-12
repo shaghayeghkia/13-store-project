@@ -16,8 +16,10 @@ function Sidebar({query, setQuery}) {
 
   return (
     <div className={styles.sidebar}>
+    <div>
     <FaListUl />
     <p>Categories</p>
+    </div>
       <div>
         <ul onClick={categoryHandler}>
        {categories.map(item => (
